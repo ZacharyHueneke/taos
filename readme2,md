@@ -1,0 +1,49 @@
+Pros
+Modularity:
+
+Separation of Concerns: Clear distinction between stable and experimental features.
+Easier Maintenance: Core library can be maintained independently of ongoing development, making it easier to manage updates and fixes.
+Stability:
+
+Reliable Core: Users can depend on the core library for stability and reliability.
+Risk Containment: Experimental changes in the WIP library don’t affect the stable core, reducing the risk of introducing bugs to critical functionality.
+User Confidence:
+
+Trust in Core: Users have more confidence in using the core library for production environments.
+Early Feedback: Users can opt into the WIP library to test new features and provide feedback, which can be invaluable for development.
+Versioning and Dependencies:
+
+Clear Versioning: Easier to manage versions and dependencies separately for the core and WIP libraries.
+Backward Compatibility: Ensures that core functionalities remain backward compatible while allowing the WIP library to evolve more freely.
+Focused Development:
+
+Dedicated Resources: Teams can focus resources on the core library’s stability and performance while simultaneously innovating in the WIP library.
+Community Engagement:
+
+Contribution Opportunities: Encourages community contributions and experimentation in the WIP library without affecting the stability of the core library.
+Transparency: Clear distinction between stable and experimental features can increase transparency with users.
+Cons
+Complexity:
+
+Increased Overhead: Managing multiple libraries can increase administrative and development overhead.
+Integration Challenges: Ensuring seamless integration between the core and WIP libraries can be challenging and require additional effort.
+Dependency Management:
+
+Version Conflicts: Potential for version conflicts or compatibility issues between the core and WIP libraries.
+Duplication of Effort: May require duplicating efforts in managing dependencies and releases for both libraries.
+User Confusion:
+
+Multiple Libraries: Users may be confused about which library to use for their needs.
+Documentation: Requires comprehensive documentation to explain the differences and integration between the core and WIP libraries.
+Resource Allocation:
+
+Split Focus: Dividing resources between maintaining the core library and developing the WIP library may dilute focus and slow down progress on both fronts.
+Prioritization Challenges: Balancing priorities between stabilizing the core and innovating in the WIP library can be difficult.
+Testing and Quality Assurance:
+
+Increased Testing: Requires separate testing and quality assurance processes for both libraries.
+Consistent Quality: Maintaining consistent quality across both libraries can be challenging, especially if resources are limited.
+Release Management:
+
+Coordinated Releases: Coordinating releases between the core and WIP libraries can be complex, especially if they have interdependencies.
+Continuous Integration: Requires robust continuous integration and delivery pipelines to manage the release processes effectively.
